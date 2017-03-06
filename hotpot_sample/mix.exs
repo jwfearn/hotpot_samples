@@ -32,7 +32,7 @@ defmodule HotpotSample.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:hotpot, path: "../hotpot"}
+      {:hotpot, github: "jwfearn/hotpot"}
     ]
   end
 end
