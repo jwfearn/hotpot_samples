@@ -1,4 +1,4 @@
-defmodule FooServer do
+defmodule Math do
   use GenServer
 
   def start_link do

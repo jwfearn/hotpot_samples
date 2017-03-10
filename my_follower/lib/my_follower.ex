@@ -1,4 +1,4 @@
-defmodule HotpotSample2 do
+defmodule MyFollower do
   use Application
 
   alias Hotpot.LiveStart

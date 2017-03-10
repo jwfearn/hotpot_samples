@@ -1,0 +1,8 @@
+*.ez
+.fetch/
+_build/
+bin_cache/
+cover/
+deps/
+doc/
+erl_crash.dump
