@@ -1,9 +1,9 @@
-defmodule HotpotSample2.Mixfile do
+defmodule MyLeader.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :hotpot_sample_2,
+      app: :hotpot_sample,
       build_embedded: Mix.env == :prod,
       deps: deps(),
       elixir: "~> 1.4",
@@ -14,7 +14,6 @@ defmodule HotpotSample2.Mixfile do
 
   def application do
     [
-      mod: {HotpotSample2, []},
       extra_applications: [:logger],
       applications: [:hotpot]
     ]
